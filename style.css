@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 80%;
+    background-color: rgb(45, 44, 44);
+    margin: auto;
+    border-radius: 20px;
+}
+.heading{
+    font-family: 'Lobster', cursive;
+}
+#title{
+    font-size: 90px;
+    text-align: center;
+}
+#span1{
+    color: red;
+}
+
+#image{
+    width: 300px;
+    border-radius: 30px;
+}
+#img-div{
+    text-align: center;
+}
+ #date{
+    background-color: rgb(20, 2, 51);
+    text-align: center;/*tarih ortada*/
+   
+} 
+
+#info{
+     background-color: rgb(99, 102, 102);
+    width: 70%;
+    margin: 20px auto;/*üst alt 20px, sol-sağ otomatik*/
+    text-align: justify;
+    font-size: 20px;
+}
+#marvel{
+    color: red;
+    margin-left: 15%;
+}
+
+ul{
+   width: 80%;
+   margin: auto; 
+}
+
+li{
+    font-size: 20px;
+    line-height: 40px;
+}
+#footer{
+    width: 65%;
+    border: 2px solid white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+#link{
+    text-decoration: dotted;
+    color: rgb(134, 10, 125);
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(41, 1, 1);
+}
+
+#link:hover{/*mous elementin üzerine gelincee rengi değiştir*/
+    background-color: gray;
+    color: red;
+}
